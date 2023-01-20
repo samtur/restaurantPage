@@ -1,1 +1,1 @@
-console.log("Hello I am okay!");
+import "./style.css";
