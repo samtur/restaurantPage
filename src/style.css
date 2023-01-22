@@ -87,8 +87,36 @@ video {
   vertical-align: baseline;
 }
 
+@font-face {
+  font-family: "UniversLTStd";
+  src: url("./UniversLTStd-Light.otf") format("opentype"),
+    url("./UniversLTStd.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  font-family: "UniversLTStd";
+}
+
+:root {
+  --background-color: #fffdec;
+  --font-color: #034337;
+  --secondary-font-color: #90bd9a;
+  --border-color: #82b590;
+  --icon-color: #dd9d5c;
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./background.jpg");
+}
+
 /* Title Container */
 .titleContainer {
+  color: var(--font-color);
+  background-color: var(--background-color);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
