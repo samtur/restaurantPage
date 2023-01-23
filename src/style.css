@@ -107,7 +107,7 @@ body {
   --icon-color: #dd9d5c;
 }
 
-.content {
+#content {
   display: grid;
   grid-template-rows: 1fr 4fr;
   width: 100vw;
