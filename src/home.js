@@ -32,6 +32,33 @@ const homeFunction = () => {
   const homeContainer = document.createElement("div");
   homeContainer.classList.add("homeContainer");
   content.appendChild(homeContainer);
+  const homeCard = document.createElement("div");
+  homeCard.classList.add("homeCard");
+  homeContainer.appendChild(homeCard);
+
+  const restInfo = document.createElement("div");
+  restInfo.classList.add("restInfo");
+  homeCard.appendChild(restInfo);
+  const resttxt1 = document.createElement("p");
+  const resttxt2 = document.createElement("p");
+  resttxt1.classList.add("resttxt");
+  resttxt2.classList.add("resttxt");
+  resttxt1.innerHTML = "Delicious Italian cuisine!";
+  resttxt2.innerHTML = "Made from freshly sourced local ingredients!";
+  restInfo.appendChild(resttxt1);
+  restInfo.appendChild(resttxt2);
+
+  const restImg = document.createElement("div");
+  restImg.classList.add("restImg");
+  homeCard.appendChild(restImg);
+
+  const restInfo2 = document.createElement("div");
+  restInfo2.classList.add("restInfo2");
+  homeCard.appendChild(restInfo2);
+  const resttxt3 = document.createElement("p");
+  resttxt3.classList.add("resttxt2");
+  resttxt3.innerHTML = "A traditional Italian experience since 1527";
+  restInfo2.appendChild(resttxt3);
 };
 
 export { homeFunction };

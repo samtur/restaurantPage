@@ -115,7 +115,7 @@ body {
   background-image: url("./background.jpg");
 }
 
-/* Title Container */
+/* Title Card */
 .titleCard {
   grid-row: 1/2;
   color: var(--font-color);
@@ -194,3 +194,5 @@ h3 {
   grid-row: 3/4;
   grid-column: 2/3;
 }
+
+/* Contact Card */
