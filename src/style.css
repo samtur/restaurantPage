@@ -151,8 +151,9 @@ h3 {
   letter-spacing: 0.08rem;
 }
 
-/* Home Content */
-.homeContainer {
+/* Home Content, ContactContainer */
+.homeContainer,
+.contactContainer {
   grid-row: 2/3;
   display: grid;
   grid-template-columns: 1.8fr 2fr 1.8fr;
@@ -160,7 +161,8 @@ h3 {
   width: 100%;
 }
 
-.homeCard {
+.homeCard,
+.contactCard {
   grid-column: 2/3;
   grid-row: 2/3;
   color: var(--font-color);
@@ -172,7 +174,8 @@ h3 {
   grid-template-rows: 1fr 3fr 1fr;
 }
 
-.restInfo {
+.restInfo,
+.contactInfo {
   display: flex;
   flex-direction: column-reverse;
   gap: 1rem;
@@ -196,3 +199,14 @@ h3 {
 }
 
 /* Contact Card */
+
+.contactCard {
+  text-align: left;
+}
+
+.contactImg {
+  grid-row: 2/3;
+  grid-column: 1/4;
+  background-image: url("./map.png");
+  background-size: cover;
+}
