@@ -1,32 +1,36 @@
 const menuFunction = () => {
   const content = document.querySelector("#content");
 
-  // Title Card
-  const titleCard = document.createElement("div");
-  titleCard.classList.add("titleCard");
-  content.appendChild(titleCard);
-  const titleContainer = document.createElement("div");
-  titleContainer.classList.add("titleContainer");
-  titleCard.appendChild(titleContainer);
-  const title = document.createElement("h1");
-  title.classList.add("title");
-  title.innerHTML = "MACHIAVELLI'S";
-  titleContainer.appendChild(title);
-  const linksContainer = document.createElement("div");
-  linksContainer.classList.add("linksContainer");
-  titleCard.appendChild(linksContainer);
+  // Nav
+  const nav = document.createElement("div");
+  nav.classList.add("nav");
+  content.appendChild(nav);
+  const navContainer = document.createElement("div");
+  navContainer.classList.add("navContainer");
+  nav.appendChild(navContainer);
   const home = document.createElement("h3");
   home.classList.add("home");
   home.innerHTML = "HOME";
-  linksContainer.appendChild(home);
+  navContainer.appendChild(home);
   const menu = document.createElement("h3");
   menu.classList.add("menu");
   menu.innerHTML = "MENU";
-  linksContainer.appendChild(menu);
+  navContainer.appendChild(menu);
   const contact = document.createElement("h3");
   contact.classList.add("contact");
   contact.innerHTML = "CONTACT";
-  linksContainer.appendChild(contact);
+  navContainer.appendChild(contact);
+
+  // Menu
+
+  // Footer
+  const footer = document.createElement("div");
+  footer.classList.add("footer");
+  content.appendChild(footer);
+  const footertxt = document.createElement("p");
+  footertxt.classList.add("footertxt");
+  footertxt.innerHTML = "Developed by Sam Turland";
+  footer.appendChild(footertxt);
 };
 
 export { menuFunction };
