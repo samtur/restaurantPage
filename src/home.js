@@ -37,7 +37,7 @@ const homeFunction = () => {
   titleContainer.appendChild(title);
   const resttxt = document.createElement("p");
   resttxt.classList.add("resttxt");
-  resttxt.innerHTML = "MAKING AUTHENTIC ITALIAN COFFEE SINCE 1929.";
+  resttxt.innerHTML = "MAKING AUTHENTIC ITALIAN tea SINCE 1929.";
   titleContainer.appendChild(resttxt);
 
   // Footer
