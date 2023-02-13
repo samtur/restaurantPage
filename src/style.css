@@ -260,7 +260,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.2fr 3fr;
-  grid-column-gap: 3rem;
   grid-row-gap: 1rem;
 }
 
@@ -276,6 +275,8 @@ body {
   display: grid;
   grid-template-columns: 2fr 1.2fr;
   grid-template-rows: 0.1fr repeat(8, 1fr);
+  padding: 0rem 2rem;
+  border-right: var(--border-color) solid 1px;
 }
 
 /* COFFEE */
@@ -364,6 +365,8 @@ body {
   grid-column: 2/3;
   grid-template-columns: 2fr 1.2fr;
   grid-template-rows: 0.1fr repeat(8, 1fr);
+  padding: 0rem 2rem;
+  border-right: var(--border-color) solid 1px;
 }
 /* PANINIS */
 .paniniTitle {
@@ -395,4 +398,5 @@ body {
   grid-column: 3/4;
   grid-template-columns: 2fr 1.2fr;
   grid-template-rows: 0.1fr repeat(8, 1fr);
+  padding: 0rem 2rem;
 }
